@@ -85,3 +85,59 @@ This Java program takes input for marks obtained (out of 100) in each subject, c
 5. The program will display the total marks, average percentage, and the corresponding grade.
 
 Feel free to modify the code to suit your specific grading criteria or any additional features you may want to incorporate.
+
+
+# codesoft_task03
+# Java ATM Machine
+
+This Java program simulates an ATM machine with basic functionalities like withdrawing, depositing, and checking the balance.
+
+## Classes
+
+### 1. **ATM Class:**
+   - Represents the ATM machine and includes methods for various operations.
+   - Methods:
+     - `withdraw(amount)`: Withdraws the specified amount from the connected bank account.
+     - `deposit(amount)`: Deposits the specified amount into the connected bank account.
+     - `checkBalance()`: Retrieves and displays the current balance.
+
+### 2. **BankAccount Class:**
+   - Represents the user's bank account and stores the account balance.
+   - Properties:
+     - `balance`: Stores the current account balance.
+
+## User Interface
+
+The user interface includes options for interacting with the ATM, such as:
+   - Withdraw
+   - Deposit
+   - Check Balance
+
+## Implementation Details
+
+1. **Connect ATM with Bank Account:**
+   - The ATM class is connected with the BankAccount class to access and modify the account balance.
+
+2. **User Input Validation:**
+   - User input is validated to ensure it is within acceptable limits. For example, withdrawals are validated to ensure there is a sufficient balance.
+
+3. **Transaction Messages:**
+   - Appropriate messages are displayed to the user based on their chosen options and the success or failure of their transactions.
+
+## How to Use
+
+1. Compile the Java program using a Java compiler.
+
+    ```bash
+    javac ATMProgram.java
+    ```
+
+2. Run the compiled program.
+
+    ```bash
+    java ATMProgram
+    ```
+
+3. Follow the on-screen instructions to perform ATM transactions.
+
+Feel free to customize the code to add more features or modify the user interface based on your requirements.
