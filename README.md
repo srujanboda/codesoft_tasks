@@ -37,3 +37,51 @@ java numbergame.java
 ```
 
 Feel free to customize the code and ranges according to your preferences. Have fun playing!
+
+
+
+# codesoft_task02
+# Java Program: Student Grade Calculator
+
+This Java program takes input for marks obtained (out of 100) in each subject, calculates the total marks, average percentage, assigns grades based on the average percentage, and displays the results to the user.
+
+## Problem Description
+
+1. **Input:**
+   - Take marks obtained (out of 100) in each subject as input.
+
+2. **Calculate Total Marks:**
+   - Sum up the marks obtained in all subjects to calculate the total marks.
+
+3. **Calculate Average Percentage:**
+   - Divide the total marks by the total number of subjects to get the average percentage.
+
+4. **Grade Calculation:**
+   - Assign grades based on the average percentage achieved. You can customize the grading scale as per your requirements.
+
+5. **Display Results:**
+   - Show the user:
+      - Total Marks
+      - Average Percentage
+      - Corresponding Grade
+
+## How to Use
+
+1. Ensure you have Java installed on your system.
+2. Compile the Java program using a Java compiler.
+
+    ```bash
+    javac CalculateGrades.java
+    ```
+
+3. Run the compiled program.
+
+    ```bash
+    java CalculateGrades
+    ```
+
+4. Enter the marks for each subject when prompted.
+
+5. The program will display the total marks, average percentage, and the corresponding grade.
+
+Feel free to modify the code to suit your specific grading criteria or any additional features you may want to incorporate.
